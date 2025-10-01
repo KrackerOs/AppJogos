@@ -7,5 +7,6 @@ public class janelateste {
         JFrame janela = new JFrame();
         janela.setBounds(0,0,1920,1080);
         janela.setVisible(true);
+        Janela janela = new Janela();
     }
 }
