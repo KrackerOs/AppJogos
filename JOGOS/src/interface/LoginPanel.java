@@ -1,9 +1,9 @@
-package
+package interface;
 import java.awt.event.ActionEvent;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 
- interface;
+ 
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
