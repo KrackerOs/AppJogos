@@ -1,28 +1,26 @@
-package interface;
+package inteface;
+
 import java.awt.event.ActionEvent;
 import javax.swing.JButton;
-import javax.swing.JLabel;
-
- 
-
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JButton;
 
-public class LoginPanel extends TelaPanel {
-      private JButton botaoLogin;
-      public LoginPanel(JPanel telas, JFrame janela){
-        super(telas, janela);
-        JLabel mensagem = new JLabel("Conteudo de LoginPanel ");
-        JButton botao = new JButton("Fazer Login");
+public class LoginPanel extends TelaPanel{
+    private JButton botaoLogin;//método JButton
+    public LoginPanel(JPanel telas, JFrame janela) {
+        super(telas,janela);
+        JLabel mensagem = new JLabel("Conteúdo do Login Panel");
+
+        JButton botao = new JButton("Fazer login"); 
         botao.addActionListener(this);
 
         this.add(mensagem);
         this.add(botao);
+        this.add(imagem);
+    }
 
-      }
-      public void executarBotao(ActionEvent e); {
-             trocaTela("Tela Principal");
-      }
-     
+    public void executarBotao(ActionEvent e){
+        trocarTela("Tela Principal");
+    }
 }
