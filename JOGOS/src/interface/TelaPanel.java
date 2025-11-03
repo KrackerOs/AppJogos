@@ -13,9 +13,9 @@ public class TelaPanel extends JPanel implements ActionListener{
     private JFrame janelas;
 
     public TelaPanel(JPanel tela, JFrame janelas){
- this.telas  = telas; package inteface;
+ this.telas  = telas; package intefaces;
 
-import inteface.componentes.Imagem;
+import intefaces.componentes.Imagem;
 import java.awt.CardLayout;
 import java.awt.Color;
 import java.awt.event.ActionEvent;
@@ -59,7 +59,7 @@ public class TelaPanel extends JPanel implements ActionListener {//extendendo JP
     protected  void trocarTela(String identificador){//metodo para trocar tela
         controleTela.show(telas, identificador);//metodo para trocar de tela quando clicar, nome das telas é o identificador
     }
-}ayout();
+}layout();
  this.janelas = janelas;
 this.setBackground(Color.decode("#202028"));
 
